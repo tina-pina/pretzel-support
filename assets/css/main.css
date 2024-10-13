@@ -1187,6 +1187,10 @@ input, select, textarea {
 					width: 100%;
 				}
 
+				.row > .col-12-small img {
+					width: inherit;
+				}
+
 				.row > .off-12-small {
 					margin-left: 100%;
 				}
@@ -2181,12 +2185,6 @@ input, select, textarea {
 
 					.social {
 						padding-top: 20px;
-					}
-
-					@media screen and (max-width: 736px) {
-						.row {
-							justify-content: center;
-						}
 					}
 				}
 
