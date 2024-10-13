@@ -2182,6 +2182,12 @@ input, select, textarea {
 					.social {
 						padding-top: 20px;
 					}
+
+					@media screen and (max-width: 736px) {
+						.row {
+							justify-content: center;
+						}
+					}
 				}
 
 				#work {
