@@ -1984,7 +1984,7 @@ input, select, textarea {
 
 			#main > .panel.intro {
 				padding: 0;
-				height: 20em;
+				height: 35em;
 				display: -moz-flex;
 				display: -webkit-flex;
 				display: -ms-flex;
@@ -2107,8 +2107,20 @@ input, select, textarea {
 					#main > .panel.intro header p {
 						letter-spacing: -0.015em;
 						font-size: 1.25em;
-						margin: 0.25em 0 0 0;
+						margin: 1.5em 0 1.1em 0.5em;
 					}
+
+					#main > .panel.intro header p:first-of-type > a {
+						border: 1px solid brown;
+						border-style: dotted;
+						text-decoration: none;
+						border-radius: 11px;
+						padding: 10px;
+						margin-bottom: 10px;
+						background: lightblue;
+					}
+
+					
 
 				@media screen and (max-width: 980px) {
 

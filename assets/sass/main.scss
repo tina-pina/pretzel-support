@@ -800,6 +800,22 @@
 					}
 				}
 			}
+
+			&#ingredients {
+				p {
+					margin: 0
+				}
+
+				div > ol {
+					margin-top: 20px;
+				}
+			}
+		}
+
+		article #ingredients.panel {
+			p {
+				margin-bottom: 0;
+			}
 		}
 	}
 
