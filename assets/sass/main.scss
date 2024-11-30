@@ -678,7 +678,7 @@
 
 			&.intro {
 				padding: 0;
-				height: 20em;
+				height: 35em;
 				@include vendor('display', 'flex');
 				@include vendor('flex-direction', 'row');
 				@include vendor('align-items', 'center');
@@ -766,7 +766,7 @@
 					p {
 						letter-spacing: -0.015em;
 						font-size: 1.25em;
-						margin: 0.25em 0 0 0;
+						margin: 1em 0 0 0;
 					}
 				}
 
