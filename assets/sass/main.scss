@@ -795,7 +795,7 @@
 
 						p {
 							font-size: 1em;
-							margin: 0.25em 0 0 0;
+							margin: 1.5em 0 0 0;
 						}
 					}
 				}
@@ -816,6 +816,10 @@
 			p {
 				margin-bottom: 0;
 			}
+		}
+
+		&.intro header p:first-of-type {
+			text-align: center;
 		}
 	}
 
